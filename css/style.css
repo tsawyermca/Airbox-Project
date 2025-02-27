@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #262336;
+    display: flex;
+}
+
+.title{
+    color: #c6c4cc;
+}
+
+.hopro{
+    color: #9b98a8;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    color:#68647d;
+    list-style:none;
+}
+
+li>a{
+    text-decoration: none;
+    color:#68647d
+}
+
+li>a:visited{
+    color:#68647d;
+}
+
+.sectionOne{
+    background-color: #262336;
+}
+
+.sectionTwo{
+    background-color: #262336;
+}
+
+.sectionThree{
+    background-color: #e8e8ea;
+}
+
+.sectionFour{
+    background-color: #262336;
+}
+
+.sectionFive{
+    background-color: #322f40;
+}
+
+footer{
+    background-color: #1a1921;
+    display: flex;
+    padding: 2%;
+}
+
+.logobuttons{
+}
