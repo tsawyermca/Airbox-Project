@@ -1,28 +1,56 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 header{
     background-color: #262336;
+    padding: 45px;
+    border-bottom: solid 1px #2d2a3d;
+}
+
+.banner{
     display: flex;
+    justify-content: space-between;
 }
 
 .title{
     color: #c6c4cc;
+    font-size: larger;
+    margin-left: -400px;
+    margin-top: 20px;
+}
+
+.AIRbox{
+    font-weight: 500;
+    font-size: larger;
+}
+.airBOX{
+    font-weight: 600;
+    font-size: x-large;
 }
 
 .hopro{
     color: #9b98a8;
 }
 
-ul{
+.nav{
     display: flex;
+    flex-direction: column-reverse;
 }
 
-li{
+header ul{
+    display: flex;
+    width: 800px;
+}
+
+header li{
     color:#68647d;
     list-style:none;
+    letter-spacing: 0.5px;
+    font-size: large;
+    padding: 0 25px;
 }
 
 li>a{
@@ -36,29 +64,209 @@ li>a:visited{
 
 .sectionOne{
     background-color: #262336;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.textone{
+    font-size: xx-large;
+    background: linear-gradient(to bottom, #CECDD3 0%, #817D92 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texttwo{
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.loremone{
+    color: #68647d;
+    margin: 35px 550px;
+    text-align: center;
+    font-size: large;
+}
+
+.trynow{
+    color: white;
+    background: linear-gradient(to bottom, #CECDD3 0%, #817D92 100%);
+    border-radius: 12px;
+    font-size: large;
+    padding: 15px;
+    margin-top: -25px;
+    margin-bottom: 100px;
 }
 
 .sectionTwo{
-    background-color: #262336;
+    background-color: #f29b66;
+    padding: 5px 65px 50px 65px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section2box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    color: whitesmoke;
+}
+
+.s2bold{
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.loremtwo{
+    text-align: center;
+    color: black;
 }
 
 .sectionThree{
     background-color: #e8e8ea;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 0;
+}
+
+.section3box{
+    text-align: center;
+}
+
+.s3t{
+    background-color: #6f6c89;
+    padding: 18px;
+    border-radius: 12px 12px 0 0;
+    font-size: xxx-large;
+    color: #cecdd3;
+}
+
+.s3p{
+    background-color: #6f6c89;
+    font-size: xx-large;
+    padding: 30px 0;
+    color: #cecdd3;
+}
+
+.s3pmo{
+    font-size: x-large;
+    color: orangered;
+}
+
+.s3d1{
+    background-color: white;
+    padding: 20px 0;
+    color: #b3b3b3;
+    border: 1px solid #e2dada;
+}
+
+.s3d2{
+    background-color: white;
+    padding: 20px 0;
+    color: #b3b3b3;
+    border: 1px solid #e2dada;
+}
+
+.s3d2:nth-child(even){
+    background-color: #f5f0f0;
+}
+
+.s3button{
+    background-color: white;
+    border: 1px solid #e2dada;
+    padding: 5px;
+}
+
+.signup{
+    background-color: orangered;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 25px;
 }
 
 .sectionFour{
     background-color: #262336;
+    display: flex;
+}
+
+.section4box{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 75px 75px 50px;
+    color: #bebcab;
+}
+
+.s4t{
+    font-size: larger;
+    color: #aba9b5;
+    font-weight: 600;
+}
+
+.section4box li{
+    color: white;
+}
+
+.section4box li::marker{
+    color:orange;
+}
+
+.shopnow{
+    margin-top: 10px;
+    padding: 5px 15px;
+    border-radius: 8px;
+    color: white;
+    background: orangered;
+    max-width: 100px;
 }
 
 .sectionFive{
     background-color: #322f40;
+    display: flex;
+    justify-content: center;
 }
 
 footer{
     background-color: #1a1921;
     display: flex;
     padding: 2%;
+    align-items:center;
+}
+
+footer .logo{
+    margin-right: 20px;
+}
+
+.footerbox{
+    display:flex;
+}
+
+.abcopy{
+    font-size: 15px;
+    color: #444153;
+    padding: 0px 15px;
+    white-space: nowrap;
+}
+
+.abox{
+    font-size: 18px;
+    color: #646c89;
+}
+
+.hprov{
+    font-size: 10px;
+}
+
+.copyr{
+    font-size: x-small;
+    color: #444153;
+    display:flex;
+    white-space: nowrap;
 }
 
 .logobuttons{
+    padding: 10px 10px 10px 1100px;
 }
